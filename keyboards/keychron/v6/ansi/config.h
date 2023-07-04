@@ -38,7 +38,7 @@
 #define CAPS_LOCK_LED_INDEX 61
 
 /* Enable NUM_LOCK_LED_INDEX */
-#define NUM_LOCK_LED_INDEX 37
+// #define NUM_LOCK_LED_INDEX 37
 
 // shivanshu3 RGB custom config
 #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
