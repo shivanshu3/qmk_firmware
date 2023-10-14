@@ -70,7 +70,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
     case SG_ALTF4:
         if (record->event.pressed) {
-            SEND_STRING(SS_LALT(SS_TAP(X_F4)));
+            register_code(KC_LALT); // Press Left Alt
+            wait_ms(50); // Wait for 50 milliseconds
+            tap_code(KC_F4); // Tap F4
+            wait_ms(50); // Wait for 50 milliseconds
+            unregister_code(KC_LALT); // Release Left Alt
         } else {
         }
         break;
