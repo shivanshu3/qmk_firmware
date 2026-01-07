@@ -57,3 +57,8 @@
 #define MOUSEKEY_MOVE_DELTA   6   // cursor step size
 #define MOUSEKEY_MAX_SPEED    6   // lower max speed
 #define MOUSEKEY_TIME_TO_MAX  50  // more time needed to reach max speed
+#define MOUSEKEY_WHEEL_DELAY        180   // when first step happens
+#define MOUSEKEY_WHEEL_INTERVAL     220   // gap to second step
+#define MOUSEKEY_WHEEL_DELTA        1
+#define MOUSEKEY_WHEEL_MAX_SPEED    1
+#define MOUSEKEY_WHEEL_TIME_TO_MAX  0
