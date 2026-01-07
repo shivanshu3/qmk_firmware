@@ -50,3 +50,10 @@
 
 #define ONESHOT_TAP_TOGGLE 2
 #define ONESHOT_TIMEOUT 5000
+
+// GENERAL MOUSE KEYS TUNING
+#define MOUSEKEY_DELAY        10  // ms before movement starts
+#define MOUSEKEY_INTERVAL     30  // ms between movement “steps”
+#define MOUSEKEY_MOVE_DELTA   6   // cursor step size
+#define MOUSEKEY_MAX_SPEED    6   // lower max speed
+#define MOUSEKEY_TIME_TO_MAX  50  // more time needed to reach max speed
